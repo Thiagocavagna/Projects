@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Projects.API.CRUD.Domain.Entities;
+using Projects.Foods.API.Domain.Entities;
 using Projects.Base.Data;
 
-namespace Projects.API.CRUD.Data
+namespace Projects.Foods.API.Data
 {
     public class AppDbContext : BaseDbContext
     {

@@ -1,9 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
-using Projects.API.CRUD.Data;
+using Projects.Foods.API.Data;
 using Projects.Base.Extensions;
 
-namespace Projects.API.CRUD.Configuration
+namespace Projects.Foods.API.Configuration
 {
     public static class DbContextConfiguration
     {

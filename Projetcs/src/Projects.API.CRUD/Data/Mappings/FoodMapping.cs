@@ -1,10 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using Projects.API.CRUD.Domain.Entities;
+using Projects.Foods.API.Domain.Entities;
 using Projects.Base.Enumerations;
 using System.Reflection.Emit;
 
-namespace Projects.API.CRUD.Data.Mappings
+namespace Projects.Foods.API.Data.Mappings
 {
     public class FoodMapping : IEntityTypeConfiguration<Food>
     {

@@ -1,9 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Projects.API.CRUD.Domain.Entities;
-using Projects.API.CRUD.Domain.IRepositories;
+using Projects.Foods.API.Domain.Entities;
+using Projects.Foods.API.Domain.IRepositories;
 using Projects.Base.Data;
 
-namespace Projects.API.CRUD.Data.Repositories
+namespace Projects.Foods.API.Data.Repositories
 {
     public class FoodRepository : IFoodRepository
     {

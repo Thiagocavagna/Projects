@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Projects.Food.API", "src\Projects.API.CRUD\Projects.Food.API.csproj", "{A446E4D8-AE37-4C07-B69C-5D61E0226A80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Projects.Foods.API", "src\Projects.API.CRUD\Projects.Foods.API.csproj", "{A446E4D8-AE37-4C07-B69C-5D61E0226A80}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Projects.Base", "src\Projects.Base\Projects.Base.csproj", "{0009149B-AF54-42FE-B66A-C4251DBD7473}"
 EndProject

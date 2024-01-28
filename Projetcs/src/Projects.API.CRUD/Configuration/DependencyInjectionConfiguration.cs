@@ -1,8 +1,8 @@
-﻿using Projects.API.CRUD.Data.Repositories;
-using Projects.API.CRUD.Domain.IRepositories;
-using Projects.API.CRUD.Services;
+﻿using Projects.Foods.API.Data.Repositories;
+using Projects.Foods.API.Domain.IRepositories;
+using Projects.Foods.API.Services;
 
-namespace Projects.API.CRUD.Configuration
+namespace Projects.Foods.API.Configuration
 {
     public static class DependencyInjectionConfiguration
     {

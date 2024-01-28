@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
-using Projects.API.CRUD.Models.Foods;
-using Projects.API.CRUD.Services;
+using Projects.Foods.API.Models.Foods;
+using Projects.Foods.API.Services;
 using Projects.Base.Controllers;
 
-namespace Projects.API.CRUD.Controllers
+namespace Projects.Foods.API.Controllers
 {
     [Route("[controller]")]
     public class InitialController : BaseController
@@ -23,7 +23,7 @@ namespace Projects.API.CRUD.Controllers
         [HttpGet("food")]
         public async Task<IActionResult> GetAsync()
         {
-            return Ok(await _service.GetAllAsync());
+            return CreateResponse(await _service.GetAllAsync());
         }
 
         [HttpPost("food")]
@@ -32,9 +32,7 @@ namespace Projects.API.CRUD.Controllers
             if(!ModelState.IsValid)
                 return BadRequest(ModelState);
 
-             await _service.CreateAsync(request);
-
-            return Ok();
+            return CreateResponse(await _service.CreateAsync(request));
         }
     }
 }

@@ -1,7 +1,7 @@
-﻿using Projects.API.CRUD.Domain.Entities;
+﻿using Projects.Foods.API.Domain.Entities;
 using Projects.Base.Data;
 
-namespace Projects.API.CRUD.Domain.IRepositories
+namespace Projects.Foods.API.Domain.IRepositories
 {
     public interface IFoodRepository : IRepository<Food>
     {

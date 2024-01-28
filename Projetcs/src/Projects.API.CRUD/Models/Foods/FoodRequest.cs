@@ -1,6 +1,6 @@
 ﻿using Projects.Base.Enumerations;
 
-namespace Projects.API.CRUD.Models.Foods
+namespace Projects.Foods.API.Models.Foods
 {
     public class FoodRequest
     {

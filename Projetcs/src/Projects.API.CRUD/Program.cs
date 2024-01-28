@@ -1,4 +1,4 @@
-using Projects.API.CRUD.Configuration;
+using Projects.Foods.API.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
 

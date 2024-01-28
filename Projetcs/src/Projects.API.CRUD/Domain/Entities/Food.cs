@@ -1,7 +1,7 @@
 ﻿using Projects.Base.Enumerations;
 using Upside.Base.Domain;
 
-namespace Projects.API.CRUD.Domain.Entities
+namespace Projects.Foods.API.Domain.Entities
 {
     public class Food : Entity
     {
@@ -13,6 +13,16 @@ namespace Projects.API.CRUD.Domain.Entities
         public decimal Fat { get; private set; }
 
         public Food(string name, string description, FoodType type, decimal protein, decimal carbohydrate, decimal fat)
+        {
+            Name = name;
+            Description = description;
+            Type = type;
+            Protein = protein;
+            Carbohydrate = carbohydrate;
+            Fat = fat;
+        }
+
+        public void Update(string name, string description, FoodType type, decimal protein, decimal carbohydrate, decimal fat)
         {
             Name = name;
             Description = description;

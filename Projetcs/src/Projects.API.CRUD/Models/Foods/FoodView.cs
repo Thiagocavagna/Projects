@@ -1,7 +1,7 @@
-﻿using Projects.API.CRUD.Domain.Entities;
+﻿using Projects.Foods.API.Domain.Entities;
 using Projects.Base.Enumerations;
 
-namespace Projects.API.CRUD.Models.Foods
+namespace Projects.Foods.API.Models.Foods
 {
     public class FoodView
     {
